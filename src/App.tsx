@@ -24,7 +24,6 @@ import Dashboard from "./pages/admin/Dashboard";
 import AdminRooms from "./pages/admin/AdminRooms";
 import AdminBookings from "./pages/admin/AdminBookings";
 import AdminCoupons from "./pages/admin/AdminCoupons";
-import usermanagement from "./pages/admin/usermanagement";  
 import UserManagement from "./pages/admin/usermanagement";
 
 const queryClient = new QueryClient();
