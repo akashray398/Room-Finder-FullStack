@@ -17,12 +17,15 @@ import Wishlist from "./pages/Wishlist";
 import MyBookings from "./pages/MyBookings";
 import NotFound from "./pages/NotFound";
 
+
 // Admin pages
 import AdminLayout from "./pages/admin/AdminLayout";
 import Dashboard from "./pages/admin/Dashboard";
 import AdminRooms from "./pages/admin/AdminRooms";
 import AdminBookings from "./pages/admin/AdminBookings";
 import AdminCoupons from "./pages/admin/AdminCoupons";
+import usermanagement from "./pages/admin/usermanagement";  
+import UserManagement from "./pages/admin/usermanagement";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +44,7 @@ const App = () => (
                 <Route path="rooms" element={<AdminRooms />} />
                 <Route path="bookings" element={<AdminBookings />} />
                 <Route path="coupons" element={<AdminCoupons />} />
+                <Route path="usermanagement" element={<UserManagement />} />
               </Route>
 
               {/* Public Routes */}
